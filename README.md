@@ -10,6 +10,7 @@
 |  `WRITE_DAT.m`     |  Convert complex data into IQ binary data | Pay attention to **row/column** vector |
 
 2. Use USRP to send tx_loop.dat periodically and record time for every transmission
+3. 
 |Function | Description | Comments|
 | :---: | :---: | :---: | 
 | `read_from_file`| read tx_loop.dat and covert to complex number| |
