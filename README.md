@@ -11,9 +11,22 @@
 
 2. Use USRP to send tx_loop.dat periodically and record time for every transmission
 
-    - In tx_leo.cpp, some functions are very important
+    - In tx_leo.cpp, 'sleep_for' blocks the execution of the current thread for at least the specified sleep_duration. (Unit ms)
+        ```
+     do {  send_from_buffer(tx_stream, buff);
+     
+         if (repeat and delay > 0.0) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(int64_t(delay * 1000)));
+           }
+        } while (repeat and not stop_signal_called);
+     ```
+    - Following functions are very important
 
 |Function | Description | Comments|
 | :---: | :---: | :---: | 
 | `read_from_file`| read tx_loop.dat and covert to complex number| |
-| `TX_time`| Obtain current time and stream it out| 'chrono' and 'ctime' should be included [link](https://stackoverflow.com/questions/997946/how-to-get-current-time-and-date-in-c)|
+| `send_from_buffer`| USRP sends out data | |
+| `TX_time`| Obtain current time and stream it out|'chrono' and 'ctime' should be included [link](https://stackoverflow.com/questions/997946/how-to-get-current-time-and-date-in-c)|
+
+
+
