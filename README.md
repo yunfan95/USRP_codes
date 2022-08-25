@@ -16,4 +16,4 @@
 |Function | Description | Comments|
 | :---: | :---: | :---: | 
 | `read_from_file`| read tx_loop.dat and covert to complex number| |
-| `TX_time`| Obtain current time and stream it out| <chrono> and <ctime> should be included, [link](https://stackoverflow.com/questions/997946/how-to-get-current-time-and-date-in-c)|
+| `TX_time`| Obtain current time and stream it out| 'chrono' and 'ctime' should be included [link](https://stackoverflow.com/questions/997946/how-to-get-current-time-and-date-in-c)|
