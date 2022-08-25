@@ -31,4 +31,4 @@
 
 3. Step3_USRP_data_reception sets USRP for signal reception.
 
-4. Step4_read_data read rx_leo.dat into Matlab and plot time-domain waveform
+4. Step4_data_read read rx_leo.dat into Matlab and plot time-domain waveform
