@@ -10,8 +10,10 @@
 |  `WRITE_DAT.m`     |  Convert complex data into IQ binary data | Pay attention to **row/column** vector |
 
 2. Use USRP to send tx_loop.dat periodically and record time for every transmission
-In tx_leo.cpp, some functions are very important
+
+    - In tx_leo.cpp, some functions are very important
 
 |Function | Description | Comments|
 | :---: | :---: | :---: | 
 | `read_from_file`| read tx_loop.dat and covert to complex number| |
+| `TX_time`| Obtain current time and stream it out| <chrono> and <ctime> should be included, [link](https://stackoverflow.com/questions/997946/how-to-get-current-time-and-date-in-c)|
