@@ -9,4 +9,4 @@
 |  `Packet_gen_BPSK.m`    |  Generate random BPSK signal for a given modulation & sample rate  |[roll-off factor](https://en.wikipedia.org/wiki/Raised-cosine_filter#:~:text=the%20mathematical%20one.-,Roll%2Doff%20factor,is%20the%20symbol%2Drate.)=0.5|
 |  `WRITE_DAT.m`     |  Convert complex data into IQ binary data | Pay attention to **row/column** vector |
 
-2. Step2: use USRP to send tx_loop.dat periodically
+2. Use USRP to send tx_loop.dat periodically
