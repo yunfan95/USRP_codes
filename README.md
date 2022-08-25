@@ -30,5 +30,5 @@
      | `TX_time`| Obtain current time and stream it out|Headers 'chrono' and 'ctime' should be included [link](https://stackoverflow.com/questions/997946/how-to-get-current-time-and-date-in-c)|
 
 3. Step3_USRP_data_reception sets USRP for signal reception.
-4. 
-5. Step4_read_data read rx_leo.dat into Matlab and plot time-domain waveform
+
+4. Step4_read_data read rx_leo.dat into Matlab and plot time-domain waveform
