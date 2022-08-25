@@ -10,7 +10,8 @@
 |  `WRITE_DAT.m`     |  Convert complex data into IQ binary data | Pay attention to **row/column** vector |
 
 2. Use USRP to send tx_loop.dat periodically and record time for every transmission
-3. 
+In tx_leo.cpp, some functions are very important
+
 |Function | Description | Comments|
 | :---: | :---: | :---: | 
 | `read_from_file`| read tx_loop.dat and covert to complex number| |
